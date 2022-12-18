@@ -14,15 +14,13 @@
     </p>
     <p>emailid:sariba2512@gmail.com</p>
     <hr>
-    <form action="mailto:sariba2512@gmail.com">
+    <form action="mailto:sariba2512@gmail.com" method="post" enctype="text/plain">
         <label> Your Name:</label>
-        <input type="text"><br>
+        <input type="text" name="yourName"><br>
         <label>Your Email:</label>
-        <input type="email"><br>
+        <input type="email" name="yourEmail"><br>
         <label>Your Message</label>
-        <textarea name="name" cols="30" rows="10"></textarea><br>
-        <label>Do you agree terms and conditions</label>
-        <input type="checkbox"><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
         <label>To submit:</label>
         <input type="submit">
     </form>
